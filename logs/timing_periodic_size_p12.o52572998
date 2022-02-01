@@ -1,0 +1,46 @@
+2021-04-21T07:45:01-0500: == JOB START  NAME=timing_periodic_size_p12 QUEUE=iclmsc HOST=hnod8-8-1 DATE=Wed Apr 21 07:45:01 CDT 2021 JOBID=52572998 ARRAY_JOBID= TASK= DEPENDENCIES= ==
+2021-04-21T07:45:03-0500: Running the jobs with periodic and None condition boundaries!
+2021-04-21T07:45:03-0500: Running the job with size 100 and number of processors = 12
+2021-04-21T07:45:08-0500: 
+2021-04-21T07:45:08-0500: real	0m5.044s
+2021-04-21T07:45:08-0500: user	0m13.138s
+2021-04-21T07:45:08-0500: sys	0m11.432s
+2021-04-21T07:45:08-0500: Finished
+2021-04-21T07:45:08-0500: Running the job with size 200 and number of processors = 12
+2021-04-21T07:45:13-0500: 
+2021-04-21T07:45:13-0500: real	0m5.316s
+2021-04-21T07:45:13-0500: user	0m24.928s
+2021-04-21T07:45:13-0500: sys	0m10.552s
+2021-04-21T07:45:13-0500: Finished
+2021-04-21T07:45:13-0500: Running the job with size 500 and number of processors = 12
+2021-04-21T07:45:29-0500: 
+2021-04-21T07:45:29-0500: real	0m16.059s
+2021-04-21T07:45:29-0500: user	2m13.160s
+2021-04-21T07:45:29-0500: sys	0m28.326s
+2021-04-21T07:45:29-0500: Finished
+2021-04-21T07:45:29-0500: Running the job with size 1000 and number of processors = 12
+2021-04-21T07:46:09-0500: 
+2021-04-21T07:46:09-0500: real	0m39.943s
+2021-04-21T07:46:09-0500: user	6m14.893s
+2021-04-21T07:46:09-0500: sys	1m13.768s
+2021-04-21T07:46:09-0500: Finished
+2021-04-21T07:46:09-0500: Running the job with size 1500 and number of processors = 12
+2021-04-21T07:47:19-0500: 
+2021-04-21T07:47:19-0500: real	1m10.062s
+2021-04-21T07:47:19-0500: user	11m45.108s
+2021-04-21T07:47:19-0500: sys	1m34.380s
+2021-04-21T07:47:19-0500: Finished
+2021-04-21T07:47:19-0500: Running the job with size 2000 and number of processors = 12
+2021-04-21T07:49:08-0500: 
+2021-04-21T07:49:08-0500: real	1m49.194s
+2021-04-21T07:49:08-0500: user	19m9.381s
+2021-04-21T07:49:08-0500: sys	1m48.432s
+2021-04-21T07:49:08-0500: Finished
+2021-04-21T07:49:08-0500: Running the job with size 4000 and number of processors = 12
+2021-04-21T07:55:17-0500: 
+2021-04-21T07:55:17-0500: real	6m8.552s
+2021-04-21T07:55:17-0500: user	69m45.597s
+2021-04-21T07:55:17-0500: sys	3m1.926s
+2021-04-21T07:55:17-0500: Finished
+2021-04-21T07:55:17-0500: Finished the jobs and exiting
+2021-04-21T07:55:17-0500: == JOB END  STATUS=0 HOST=hnod8-8-1 DATE=Wed Apr 21 07:55:17 CDT 2021 RUNTIME=617 ==

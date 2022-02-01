@@ -1,0 +1,19 @@
+Configuration file - Please EDIT ONLY THE VALUES AFTER = !!! Do not change the order and be careful, there should be no space on the line!
+// Domain information
+boundary=fixed
+boundary_condition=Neumann
+grid_imax=100
+grid_jmax=100
+// Physical Parameters
+t_max=5.0;
+t=0.0
+t_out=0.0
+dt_out=0.04
+x_max=10.0
+y_max=10.0
+c=2
+// Initial Condition
+pid=0
+i_pos=2
+j_pos=2
+value=9.0

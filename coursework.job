@@ -1,0 +1,19 @@
+#!/bin/bash
+#rj queue=iclmsc priority=550 logdir=logs name=timing_job_dirichlet_prime nodes=1 runtime=5
+
+BOUNDARY="fixed" 
+BOUNDARY_TYPE="Dirichlet"
+SIZE=4000
+
+echo "Running the jobs with $BOUNDARY and $BOUNDARY_TYPE condition boundaries!"
+
+# Loop over the list of cores
+for num_cores in 5 7 11 19 31 47 53 61
+do 
+echo "Running the job with size $SIZE and number of processors = $num_cores"
+time mpiexec --oversubscribe -n $num_cores ./build/MPI_Wave_Equation_Optimized -i $SIZE -j $SIZE -b $BOUNDARY -c $BOUNDARY_TYPE
+echo "Finished"
+done
+
+echo "Finished the jobs and exiting"
+
